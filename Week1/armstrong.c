@@ -17,6 +17,7 @@ int main()
     for(int i=num;i>0;)
     {
         int digit = i%10;
+    
         sum = sum + pow(digit,count);
         i = i/10;
     }
