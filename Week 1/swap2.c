@@ -10,4 +10,5 @@ int main()
     a = b;
     b = temp;
     printf("a= %d,b= %d\n",a,b);
+    
 }
