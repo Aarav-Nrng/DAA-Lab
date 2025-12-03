@@ -23,7 +23,6 @@ int findCelebrity(const vector<vector<int>>& arr)
             --b;
         }
     }
-
     int cand = a;
     for (int i = 0; i < n; ++i) 
     {

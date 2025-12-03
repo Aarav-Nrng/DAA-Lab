@@ -2,8 +2,7 @@
 #include<unordered_map>
 using namespace std;
 
-// function to return the characters and
-// frequencies in the order of their occurrence
+// function to return the characters and frequencies in the order of their occurrence
 string modifyString(string &s) {
     unordered_map<char, int> d;
     string res = "";
